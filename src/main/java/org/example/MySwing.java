@@ -14,12 +14,7 @@ public class MySwing {
         jFrame.add(jLabel);
 
         JButton jButton = new JButton("A");
-        jButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("你干嘛~~");
-            }
-        });
+        jButton.addActionListener(e -> System.out.println("你干嘛~~"));
         jFrame.add(jButton);
 
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
