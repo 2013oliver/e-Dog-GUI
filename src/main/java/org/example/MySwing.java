@@ -7,11 +7,10 @@ public class MySwing {
         JFrame jFrame = new JFrame("MySwing");
         jFrame.setVisible(true);
         jFrame.setBounds(300,300,300,300);
-
-        JLabel jLabel = new JLabel("aaa");
-        jFrame.add(jLabel);
+        jFrame.setLayout(null);
 
         JButton jButton = new JButton("A");
+        jButton.setBounds(100,100,100,100);
         jButton.addActionListener(e -> System.out.println("aaa~~"));
         jFrame.add(jButton);
 
