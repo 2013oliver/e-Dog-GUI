@@ -1,2 +1,2 @@
 # MyJavaGUI
-This is a javax swing project
+这是一个javax.swing项目
