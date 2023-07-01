@@ -1,2 +1,2 @@
-# MyJavaGUI
-这是一个javax.swing项目
+# e-Dog-GUI
+This project is a javax.swing project
