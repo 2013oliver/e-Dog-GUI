@@ -10,7 +10,7 @@ public class MySwing {
         jFrame.setBounds(300,300,300,300);
         jFrame.setLayout(null);
         Toolkit took = Toolkit.getDefaultToolkit();
-        Image icon = took.getImage("src/main/resources/img/E-Dog-icon.png");
+        Image icon = took.getImage("src/main/java/org/example/img/E-Dog-icon.png");
         jFrame.setIconImage(icon);
 
         JButton jButton = new JButton("A");
