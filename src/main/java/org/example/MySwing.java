@@ -5,12 +5,12 @@ import java.awt.*;
 
 public class MySwing {
     public void init() {
+        Toolkit toolkit=Toolkit.getDefaultToolkit();
         JFrame jFrame = new JFrame("MySwing");
+        Image icon = toolkit.getImage("./img/E-Dog-icon.png");
         jFrame.setVisible(true);
         jFrame.setBounds(300,300,300,300);
         jFrame.setLayout(null);
-        Toolkit took = Toolkit.getDefaultToolkit();
-        Image icon = took.getImage("src/main/java/org/example/img/E-Dog-icon.png");
         jFrame.setIconImage(icon);
 
         JButton jButton = new JButton("A");
