@@ -1,17 +1,21 @@
 package org.example;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class MySwing {
-    public void init(){
+    public void init() {
         JFrame jFrame = new JFrame("MySwing");
         jFrame.setVisible(true);
         jFrame.setBounds(300,300,300,300);
         jFrame.setLayout(null);
+        Toolkit took = Toolkit.getDefaultToolkit();
+        Image icon = took.getImage("src/main/resources/img/E-Dog-icon.png");
+        jFrame.setIconImage(icon);
 
         JButton jButton = new JButton("A");
-        jButton.setBounds(100,100,100,100);
-        jButton.addActionListener(e -> System.out.println("aaa~~"));
+        jButton.setBounds(25,25,50,25);
+        jButton.addActionListener(e -> System.out.println("你干嘛~~"));
         jFrame.add(jButton);
 
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
